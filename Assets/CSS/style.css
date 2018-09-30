@@ -168,7 +168,7 @@ div.transbox h1 {
 .hero-text {
   color: black;
   left: 50%;
-  position: absolute;
+  position: relative;
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -185,6 +185,13 @@ div.transbox h1 {
   margin-top: 8px;
 }
 
+.smallPicText {
+  font-size: 24px;
+  color: goldenrod;
+  text-shadow:1px 1px 2px black;
+
+}
+
 .boxText {
   color: white;
   font-size: 30px;
@@ -193,3 +200,21 @@ div.transbox h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+@media (max-width: 719px) {
+  .smallPic {display: block;
+  position: relative;
+  align-items: center;}
+  .coloredBox {display: none;}
+  .hero-text {top: 52%;}
+  .hero-text h1 {font-size: 52px;}
+}
+
+
+@media (min-width: 720px) {
+  .smallPic {display: none;}
+  .smallPicText {display: none;}
+  }
+
