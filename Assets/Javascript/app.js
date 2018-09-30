@@ -1,1 +1,6 @@
-console.log("test")
+
+
+  $(".contact").on("click", function () {
+    $(".contactMe").show();
+  });
+

@@ -1,25 +1,133 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
   background-image: url("../Images/full-bloom.png")
 }
 .hero-image {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png"); */
-  background-image: url("..//Images/blur-blurry-bokeh-347139.jpg");
-
-/* background-color: green; */
-  height: 70%;
+  /* background-image: url("../Images/holger-link-767111-unsplash.jpg"); */
+  background-image: url("../Images/IMG_3404.JPG");
+  /* opacity: .5; */
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+.github {
+    margin-top: 20px;
+}
 
+/* .headshot {
+  opacity: 1;
+} */
+
+.container {
+    margin-top: 50px;
+}
+
+.hvrbox .hvrbox-layer_image {
+    padding: 0px;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+.hero-image2 {
+   
+    background-image: url("../Images/IMG_3404.JPG");
+    height:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  h1 {
+    color:white;
+    font-size: 60px;
+    text-shadow:6px 6px 10px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 100%;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+  
+  div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  
 .hero-text {
   text-align: center;
   position: absolute;
@@ -27,6 +135,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+.hero-text2 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 
 .hero-text button {
@@ -43,4 +157,39 @@ body {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+}
+
+.portfolio {
+  color: white !important;
+  margin-top: 8px;
+
+}
+
+.boxText {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.coloredBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+  border-left: 6px solid goldenrod
+}
+
+
+h2{
+font-size: 44px;
+}
+
+.contactMe {
+  display: none;
 }
