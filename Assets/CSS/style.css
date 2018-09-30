@@ -6,7 +6,7 @@ body, html {
 
 body {
   background-image: url("../Images/full-bloom.png")
-}
+ }
 
 h1 {
   color: white;
@@ -180,22 +180,6 @@ div.transbox h1 {
   left: 10%;
 }
 
-/* .hero-text button {
-  cursor: pointer;
-  background-color: #ddd;
-  border: none;
-  color: black;
-  display: inline-block;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-} */
-
-/* .hero-text button:hover {
-  background-color: #555;
-  color: white;
-} */
-
 .portfolio {
   color: white !important;
   margin-top: 8px;
@@ -209,5 +193,3 @@ div.transbox h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
