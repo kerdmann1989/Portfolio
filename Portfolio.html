@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kathy Erdmann Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -11,41 +10,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" -->
+    <!-- crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Kathy Erdmann</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span>Contact Me</span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link contact" href="mailto:erdmann1989@comcast.net"><i class="fas fa-envelope" style="font-size: 2rem; color: white;"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://linkedin.com/in/kathy-erdmann"><img src="./Assets/Images/In-White-81px-R.png"
-                            style="width: 30px"></a>
-                </li>
+
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+            <a href="#!" class="brand-logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Skills.html">Skills</a></li>
+                <li><a href="mailto:erdmann1989@comcast.net">Email</a></li>
+                <li><a href="https://linkedin.com/in/kathy-erdmann">LinkedIn</a></li>
             </ul>
         </div>
     </nav>
-    <!-- Hero Image -->
-    <div class="hero-image2">
-        <div class="hero-text">
-            <br><br><br><br>
-            <h1>Portfolio</h1>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Skills.html">Skills</a></li>
+        <li><a href="mailto:erdmann1989@comcast.net">Email</a></li>
+        <li><a href="https://linkedin.com/in/kathy-erdmann">LinkedIn</a></li>
+    </ul>
+
+
+    <div class="hero2">
+        <div class="container">
+            <div class="heroPortText">
+                <br><br><br><br>
+                <h1 class="port">Portfolio</h1>
+            </div>
         </div>
     </div>
+<br><br>
+    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
     <!-- Container -->
-    <div class="container">
+    <div class="container" id="projects">
         <!-- First row of projects -->
         <div class="row">
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -58,6 +70,8 @@
                         <p class="smallPicText text-center">Crystal Collector</p>
                     </a>
                 </div>
+            </div>
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -70,7 +84,9 @@
                         <p class="smallPicText text-center">Disney Trivia</p>
                     </a>
                 </div>
+            </div>
 
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -85,12 +101,13 @@
                 </div>
             </div>
 
+        </div>
 
         <br>
         <!-- Second row of projects -->
 
         <div class="row">
-
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -103,7 +120,8 @@
                         <p class="smallPicText text-center">Disney Gif Mania</p>
                     </a>
                 </div>
-
+            </div>
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -116,7 +134,9 @@
                         <p class="smallPicText text-center">Quote Me</p>
                     </a>
                 </div>
+            </div>
 
+            <div class="col l4">
 
                 <div class="hvrbox mx-auto d-block">
                     <div class="coloredBox">
@@ -129,67 +149,60 @@
                         <p class="smallPicText text-center">Friend Finder</p>
                     </a>
                 </div>
-
-           
-            <br>
-        </div>
-        <br>
-
-<!-- Third row of projects -->
-
-<div class="row">
-
-
-    <div class="hvrbox mx-auto d-block">
-        <div class="coloredBox">
-            <div class="boxText mx-auto">Eat A Burger</div>
-        </div>
-        <a href="https://desolate-sands-99860.herokuapp.com/"><img src="./Assets/Images/EatABurger.PNG" alt="Eat a Burger Screen Shot"
-                class="hvrbox-layer_top hvrbox-layer_image" style="height: 200px"></a>
-        <a href="https://desolate-sands-99860.herokuapp.com/"><img src="./Assets/Images/EatABurger.PNG" alt="Eat a Burger Screen Shot"
-                class="smallPic" style="width: 200px">
-            <p class="smallPicText text-center">Eat a Burger</p>
-        </a>
-    </div>
-
-
-    <!-- <div class="hvrbox mx-auto d-block">
-        <div class="coloredBox">
-            <div class="boxText mx-auto">Quote Me</div>
-        </div>
-        <a href="https://slcdrew.github.io/Group-Project-One"><img src="./Assets/Images/Quote Me Picture.png"
-                alt="Polaroid Image" class="hvrbox-layer_top hvrbox-layer_image" style="height: 200px"></a>
-        <a href="https://slcdrew.github.io/Group-Project-One"><img src="./Assets/Images/Quote Me Picture.png"
-                alt="Polaroid Image" class="smallPic" style="width: 200px">
-            <p class="smallPicText text-center">Quote Me</p>
-        </a>
-    </div>
-
-
-    <div class="hvrbox mx-auto d-block">
-        <div class="coloredBox">
-            <div class="boxText mx-auto">Friend Finder</div>
-        </div>
-        <a href="https://peaceful-stream-91990.herokuapp.com/"><img src="./Assets/Images/friendfinder.png"
-                alt="Polaroid Image" class="hvrbox-layer_top hvrbox-layer_image" style="height: 200px"></a>
-        <a href="https://peaceful-stream-91990.herokuapp.com/"><img src="./Assets/Images/friendfinder.png"
-                alt="Polaroid Image" class="smallPic" style="width: 200px">
-            <p class="smallPicText text-center">Friend Finder</p>
-        </a>
-    </div> -->
-
-
-<br>
-</div>
-
-
-        <div class="row">
-            <div class="github  mx-auto d-block">
-                <h3>Find me on Git Hub </h3>
-                <a href="https://github.com/kerdmann1989"><img src="./Assets/Images/GitHub-Mark-32px.png" alt="github icon"
-                        class="mx-auto d-block"></a>
             </div>
         </div>
+
+        <br>
+
+        <!-- Third row of projects -->
+
+        <div class="row">
+            <div class="col l4">
+
+                <div class="hvrbox mx-auto d-block">
+                    <div class="coloredBox">
+                        <div class="boxText mx-auto">Eat A Burger</div>
+                    </div>
+                    <a href="https://desolate-sands-99860.herokuapp.com/"><img src="./Assets/Images/EatABurger.PNG" alt="Eat a Burger Screen Shot"
+                            class="hvrbox-layer_top hvrbox-layer_image" style="height: 200px"></a>
+                    <a href="https://desolate-sands-99860.herokuapp.com/"><img src="./Assets/Images/EatABurger.PNG" alt="Eat a Burger Screen Shot"
+                            class="smallPic" style="width: 200px">
+                        <p class="smallPicText text-center">Eat a Burger</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col l4">
+
+
+                <div class="hvrbox mx-auto d-block">
+                    <div class="coloredBox">
+                        <div class="boxText mx-auto">Gift Registry</div>
+                    </div>
+                    <a href="https://greedy-bastards.herokuapp.com/"><img src="./Assets/Images/Greedy.PNG" alt="Gift Registry Logo"
+                            class="hvrbox-layer_top hvrbox-layer_image" style="height: 200px"></a>
+                    <a href="https://greedy-bastards.herokuapp.com/"><img src="./Assets/Images/Greedy.PNG" alt="Gift Registry Logo"
+                            class="smallPic" style="width: 200px">
+                        <p class="smallPicText text-center">Gift Registry</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+    </div>
+    <br>
+
+
+
+    <div class="row">
+        <div class="github  mx-auto d-block">
+            <h3>Find me on Git Hub </h3>
+            <a href="https://github.com/kerdmann1989"><img src="./Assets/Images/GitHub-Mark-32px.png" alt="github icon"
+                    class="mx-auto d-block"></a>
+        </div>
+    </div>
 
     </div>
 
@@ -198,8 +211,10 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script> -->
 
 
     <script src="./Assets/Javascript/app.js"></script>

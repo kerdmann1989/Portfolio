@@ -14,25 +14,25 @@ h1 {
   font-size: 60px;
   text-shadow:6px 6px 10px black;
   -webkit-text-stroke-width: .4px;
-  -webkit-text-stroke-color: goldenrod;
+  -webkit-text-stroke-color: #ffab00;
 }
 
 
 h2{
 font-size: 44px;
-color: goldenrod;
+color: #ffab00;
 text-shadow:2px 2px 4px black;
 }
 
 h3 {
-  color: goldenrod;
+  color: #ffab00;
   text-shadow:1px 1px 2px black;
 
 }
 
 .coloredBox {
   background-color: rgba(0, 0, 0, 0.6);
-  border-left: 6px solid goldenrod;
+  border-left: 6px solid #ffab00;
   color: white;
   height: 200px;
   position: relative;
@@ -52,7 +52,12 @@ h3 {
 }
 
 .headshot {
-  border: solid 1px goldenrod;
+  border: solid 1px #ffab00;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
 }
 
 .hero-image {
@@ -62,7 +67,8 @@ h3 {
   background-size: cover;
   height: 60%;
   position: relative;
-  border-bottom: 6px solid goldenrod;
+  /* border-bottom: 6px solid goldenrod; */
+  border-bottom: 6px solid #ffab00 
 }
 
 .hero-image2 {
@@ -72,14 +78,41 @@ h3 {
   background-size: cover;
   height:60%;
   position: relative;
-  border-bottom: 6px solid goldenrod;
+  border-bottom: 6px solid #ffab00;
 
 }
 
+.hero {
+  background-image: url("../Images/IMG_3404.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60%;
+  position: absolute;
+  width: 100%;
+  border-bottom: 6px solid #ffab00;
+}
+
+.hero2 {
+  background-image: url("../Images/IMG_3404.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60%;
+  position: absolute;
+  width: 100%;
+  border-bottom: 6px solid #ffab00;
+}
+
+.myInfo {
+  margin-top: 30%;
+  position: relative;
+}
 .hvrbox .hvrbox-layer_image {
   background: transparent none repeat scroll 0% 0%;
   padding: 0px;
 }
+
 
 .hvrbox,
 .hvrbox * {
@@ -166,12 +199,21 @@ div.transbox h1 {
 }
   
 .hero-text {
-  color: black;
+  /* color: black; */
   left: 50%;
   position: relative;
   text-align: center;
-  top: 50%;
+  margin-top: 40px;
   transform: translate(-50%, -50%);
+}
+
+.heroPortText {
+   /* color: black; */
+   left: 50%;
+   position: relative;
+   text-align: center;
+   margin-top: 180px;
+   transform: translate(-50%, -50%);
 }
 
 .hero-text2 {
@@ -187,7 +229,7 @@ div.transbox h1 {
 
 .smallPicText {
   font-size: 24px;
-  color: goldenrod;
+  color: #ffab00;
   text-shadow:1px 1px 2px black;
 
 }
@@ -201,20 +243,64 @@ div.transbox h1 {
   transform: translate(-50%, -50%);
 }
 
+.skills {
+  height: 60px;
+}
 
+.about {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* .projects {
+  margin-top: 20%;
+} */
+.me {
+  font-size: 22px;
+}
+
+.container2 {
+  background: rgba(148, 149, 150, 0.685);
+  width: 70%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  margin: auto;
+}
 
 @media (max-width: 719px) {
   .smallPic {display: block;
   position: relative;
   align-items: center;}
   .coloredBox {display: none;}
-  .hero-text {top: 52%;}
-  .hero-text h1 {font-size: 52px;}
+  .hero-text {font-size: 52px;
+  margin-top: 60px;}
+  .hero-image2 {height: 200px;}
+  .hero2 {height: 60%;}
+  .hero-image {padding-top: 100px;}
+  .skills {height: 60px;}
+}
+
+#projects {
+  margin-top: 400px;
+}
+
+#skill {
+  margin-top: 400px;
+}
+
+@media (max-width: 1000px) {
+  .hero2 {height: 60%;}
+  .heroPortText {margin-top: 30%;}
 }
 
 
 @media (min-width: 720px) {
   .smallPic {display: none;}
   .smallPicText {display: none;}
+  .hero-image2 {height: 300px;}
+
+  
   }
 
