@@ -79,7 +79,7 @@ h3 {
   left: 50%;
   position: relative;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   transform: translate(-50%, -50%);
 }
 
@@ -140,30 +140,60 @@ h3 {
 @media (max-width: 1000px) {
   .hero2 {height: 60%;}
   .heroPortText {margin-top: 225px;}
-  .projects {margin-top: 380px;}
+  .projects {margin-top: 400px;}
+  
 }
 
 /* if greater than or equal to 720 */
-@media (min-width: 720px) {
+/* @media (max-width: 768) {
   .smallPic {display: none;}
   .smallPicText {display: none;}
   .hero-image2 {height: 300px;}
-}
+} */
 
-  /* if device is 719 or less */
-@media (max-width: 719px) {
+@media (max-width: 650px) {
   .smallPic {display: block;
     position: relative;
   align-items: center;}
   .coloredBox {display: none;}
-  .hero-text {font-size: 48px;
-    margin-top: 60px;}
-    .headshot {width: 225px;
+  .hero-text {font-size: 52px;
+    margin-top: 85px;}
+    .headshot {width: 250px;
   margin-top: 20px;}
   .hero-image2 {height: 200px;}
   .hero2 {height: 60%;}
   .hero-image {padding-top: 80px;}
   .skills {height: 60px;}
   .photo {height: 200px;}
+  #projects {margin-top: 200px;}
 }
+
+
+@media (max-width: 649px) {
+ 
+  .headshot {width: 240px;}
+  .hero-text {font-size: 48px; margin-top: 50px;}
+  .projects {margin-top: 375px;}
+  #skill {margin-top: 400px;}
+  #projects {margin-top: 400px;}
+
+}
+
+
+/* if greater than or equal to 300 */
+@media (max-width: 414px) {
+  .smallPic {display: none;}
+  .smallPicText {display: none;}
+  .hero-image2 {height: 300px;}
+  .hero2 {height: 60%;}
+  .headshot {width: 230px;}
+  .hero-text {font-size: 48px;}
+  .hero {height: 60%;}
+}
+
+
+
+  /* if device is 719 or less */
+
   
+
