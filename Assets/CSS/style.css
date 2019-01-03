@@ -144,18 +144,7 @@ h3 {
   
 }
 
-/* if greater than or equal to 720 */
-/* @media (max-width: 768) {
-  .smallPic {display: none;}
-  .smallPicText {display: none;}
-  .hero-image2 {height: 300px;}
-} */
-
 @media (max-width: 650px) {
-  .smallPic {display: block;
-    position: relative;
-  align-items: center;}
-  .coloredBox {display: none;}
   .hero-text {font-size: 52px;
     margin-top: 85px;}
     .headshot {width: 250px;
